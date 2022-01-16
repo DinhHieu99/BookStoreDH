@@ -1,0 +1,114 @@
+.font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 16px;
+}
+
+.panel-default {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    padding-left: 2%;
+    border: 1px solid #ddd;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    padding: 10px 0;
+}
+
+.form-group .row label {
+    color: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.container .panel-body .control-label {
+    text-align: center;
+}
+
+.group {
+    margin-top: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.group input {
+    margin: 5% 0;
+}
+
+.group label {
+    border: 1px solid #ddd;
+}
+
+.group label:hover {
+    border: 1px solid blue;
+}
+
+.title {
+    text-align: left;
+    font-size: 15px;
+}
+
+.subtitle {
+    text-align: left;
+    color: #ada9a9;
+}
+
+.table_order_items_product_name {
+    text-align: center;
+}
+
+.table_order_items_product_name a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-center .pull-left {
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+.text-center button {
+    margin-top: 10px;
+    background-color: #2edc7c;
+    border-color: #2edc7c;
+}
+
+.text-center button:hover {
+    color: #2edc7c;
+    background-color: #f5f5f5;
+    border-color: #2edc7c;
+}
+
+
+@media screen and (max-width: 812px){
+    .container .panel-body .control-label {
+        text-align: left;
+    }
+    .group input{
+        margin-top: 100px;
+    }
+}
+
+.container .container .btn-primary {
+    float: right;
+    color: #fff;
+    background-color: #2edc7c;
+    border: 1px solid #2edc7c;
+}
+
+.container .container .btn-primary:hover {
+    float: right;
+    color: #2edc7c;
+    background-color: #fff;
+    border: 1px solid #2edc7c;
+}

@@ -1,0 +1,93 @@
+.container .wrapper-tab .container-left .row {
+    padding: 10px;
+}
+
+.box-cart-price {
+    padding: 1px;
+    width: 21%;
+}
+
+.box-cart-price .price {
+    float: right;
+}
+
+.box-cart-price strong {
+    color: #2edc7c;
+}
+
+.box-style {
+    padding: 0 5% 21px 0;
+}
+
+.box-cart-price button {
+    background-color: #2edc7c;
+    color: #fff;
+    border: 1px solid #2edc7c;
+}
+
+.box-cart-price button:hover {
+    background-color: #2edc7c;
+    color: #fff;
+    border: 1px solid #2edc7c;
+}
+
+.box-cart-price button[title="Tiếp tục mua hàng"] {
+    background-color: #fff;
+    color: #2edc7c;
+    border: 3px solid #2edc7c;
+}
+
+.box-button input {
+    display: inline;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box-info-product {
+    padding: 0 2%;
+}
+
+.box-info-product .name {
+    width: auto;
+}
+
+.box-info-product button {
+    background-color: #2edc7c;
+    border: 1px solid #2edc7c;
+}
+
+.box-info-product button:hover {
+    background-color: #fff;
+    color: #2edc7c;
+    border: 1px solid #2edc7c;
+}
+
+.box-button button {
+    border: 4px solid #ebebeb;
+}
+
+.box-button button:hover {
+    color: #ebebeb;
+    background-color: #2edc7c;
+}
+
+.action a {
+    color: #2edc7c;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.container .content-mob {
+    display: none;
+}
+
+@media screen and (max-width: 812px) {
+    .container .content-web {
+        display: none;
+    }
+    .container .content-mob {
+        display: block;
+    }
+}

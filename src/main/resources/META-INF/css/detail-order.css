@@ -1,0 +1,165 @@
+.col-md-6 h4 {
+    margin-left: 15px;
+}
+
+table {
+    margin-left: 15px;
+    width: 100%;
+}
+
+table tr th {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+table tr td {
+    padding: 10px 0;
+    width: 100%;
+}
+
+table tr td .product-title {
+    text-decoration: none;
+    color: #777;
+}
+
+table tr td .product-title:hover {
+    text-decoration: none;
+    color: #2edc7c;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+table .right {
+    text-align: right;
+    border-spacing: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+.details {
+    margin: 10px;
+}
+
+.thank {
+    margin-left: 5%;
+    border: 1px solid #FFFFFF;
+    z-index: 200;
+    box-shadow: 0 0 15px -5px rgb(0 0 0 / 40%);
+    background-color: #FFFFFF;
+}
+
+.thank p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.col-md-6 h4 {
+    margin-left: 15px;
+}
+
+table {
+    margin-left: 15px;
+    width: 100%;
+}
+
+table tr th {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+table tr td {
+    padding: 10px 0;
+    width: 100%;
+}
+
+table tr td .product-title {
+    text-decoration: none;
+    color: #777;
+}
+
+table tr td .product-title:hover {
+    text-decoration: none;
+    color: #2edc7c;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+table .right {
+    text-align: right;
+    border-spacing: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+.details {
+    margin: 10px;
+}
+
+.thank {
+    margin-left: 5%;
+    border: 1px solid #FFFFFF;
+    z-index: 200;
+    box-shadow: 0 0 15px -5px rgb(0 0 0 / 40%);
+    background-color: #FFFFFF;
+}
+
+.thank p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#continue a {
+    float: right;
+    margin-top: 20px;
+    text-align: right;
+    color: #fff;
+    background-color: #2edc7c;
+    border: 1px solid #2edc7c;
+}
+
+#continue a:hover {
+    color: #2edc7c;
+    background-color: #fff;
+}

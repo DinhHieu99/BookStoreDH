@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.conetnt {
+    width: 100%;
+}
+
+.content-left,
+.content-right {
+    display: inline-block;
+    background-color: #f5f5f5;
+    padding: 10px;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.content-left span {
+    font-weight: bold;
+}
+
+.content-left a {
+    padding: 10px 20px;
+    border: 1px solid #00d664;
+    background-color: #00d664;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.content-left a:hover {
+    background-color: #fff;
+    color: #00d664;
+}
+
+.content-right span {
+    font-weight: bold;
+}
+
+.content-right input[name="login"] {
+    border: 1px solid #00d664;
+    background-color: #00d664;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.content-right input[name="login"]:hover {
+    background-color: #f5f5f5;
+    color: #00d664;
+}
+
+.content {
+    width: 100%;
+}
+
+h2,
+h6 {
+    width: 100%;
+}
+
+.form-group {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.form-group .control-label {
+    display: inline;
+}
+
+.form-group div {
+    display: inline-block;
+}
+
+.required {
+    display: block;
+}
+
+.content fieldset {
+    border: 1px solid #E1E1E1;
+}
+
+.content legend {
+    width: 20%;
+    margin-left: 1%;
+    padding-left: 1%;
+    text-align: left;
+}
+
+input[name="singup"]:hover {
+    background-color: #f5f5f5;
+    color: blue;
+}
+
+@media screen and (max-width: 760px) {
+    .content h2 {
+        font-size: 26px;
+    }
+
+    .content legend {
+        width: 50%;
+        font-size: 16px;
+        margin-left: 1%;
+        padding-left: 1%;
+        text-align: left;
+    }
+
+    .form-group {
+        text-align: left;
+    }
+}
+
+.required {
+    text-align: right;
+}
+
+.avatar {
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    color: white;
+    background-color: #2edc7c;
+    border: 1px solid #2edc7c;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #2edc7c;
+    border: 1px solid #2edc7c;
+}
+
+@media screen and (max-width: 812px) {
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .required {
+        text-align: left;
+    }
+}
